@@ -1,0 +1,40 @@
+.dataTables_wrapper {
+    overflow: auto;
+}
+.logo-name {
+  color: #e6e6e6;
+  font-size: 30px !important;
+  font-weight: bold !important;
+  letter-spacing:0;
+  margin-bottom: 0;
+}
+.middle-box h1 {
+  font-size: 30px !important;
+}
+.g-signin2 .abcRioButton.abcRioButtonLightBlue {
+    width: 100% !important;
+    text-align: center;
+}
+.landing-page .header-back.one {
+    background: url('../img/landing/1.jpg') 50% 0 no-repeat;
+    background-position: center center;
+}
+.landing-page .header-back.two {
+    background: url('../img/landing/images.jpg') 50% 0 no-repeat;
+    background-size: cover;
+}
+@font-face {
+    font-family: 'Brandon_bld';
+    src: url('../fonts/Brandon_bld.eot');
+    src: url('../fonts/Brandon_bld.eot') format('embedded-opentype'),
+         url('../fonts/Brandon_bld.woff2') format('woff2'),
+         url('../fonts/Brandon_bld.woff') format('woff'),
+         url('../fonts/Brandon_bld.ttf') format('truetype'),
+         url('../fonts/Brandon_bld.svg#Brandon_bld') format('svg');
+}
+body, body.landing-page{
+ font-family: 'Brandon_bld';
+}
+.nav.navbar-top-links a{
+  padding: 1px;
+}
